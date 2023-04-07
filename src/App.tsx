@@ -10,6 +10,7 @@ import { CheckBoxComponent } from './components/FormComponents/checkBoxComponent
 import { SwitchComponent } from './components/FormComponents/switchComponent';
 import { RatingComponent } from './components/FormComponents/ratingComponent';
 import { AutoCompliteComponent } from './components/FormComponents/autoCompliteComponent';
+import { BoxComponent } from './components/layoutComponents/boxComponent';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
       <RatingComponent />
       <Typography variant={'h4'}>autocomplite component area</Typography>
       <AutoCompliteComponent/>
+     <BoxComponent/>
     </div>
   );
 }
